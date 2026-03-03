@@ -24,6 +24,13 @@ https://github.com/user-attachments/assets/d80120f2-c751-407e-a166-068dd1dd9e8d
 
 ## Installation
 
+### Prerequisites (Required)
+Before installing the custom node, you **must** install `espeak-ng` and set up its environment variable:
+
+1. **Install espeak-ng**: Download and install it from [https://github.com/espeak-ng/espeak-ng/](https://github.com/espeak-ng/espeak-ng/).
+2. **Set Environment Variable**: Add a new system environment variable named `PHONEMIZER_ESPEAK_LIBRARY` pointing to the `espeak-ng` installation path (e.g., `C:\Program Files\eSpeak NG\libespeak-ng.dll` on Windows).
+3. **Reboot**: You must completely restart the ComfyUI CLI/console for the updated environment variables to be securely loaded.
+
 ### Method 1: ComfyUI Manager (Recommended)
 Search for "KittenTTS" in ComfyUI Manager and install.
 
